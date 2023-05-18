@@ -1,0 +1,19 @@
+{
+  "name": "html",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "cucumber-js features/**/*.feature --require-module ts-node/register --require test.setup.ts --require step-definitions/**/*.ts"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@cucumber/cucumber": "^9.1.2",
+    "@types/node": "^20.2.0",
+    "playwright": "^1.33.0",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.0.4"
+  }
+}
